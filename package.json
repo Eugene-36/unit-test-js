@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "dsad": "./src/delay/delay.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/Eugene-36/unit-test-js#readme",
   "devDependencies": {
     "jest": "^28.1.3"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
   }
 }
